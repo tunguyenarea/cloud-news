@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "TN News",
 };
 
-export const runtime = 'edge';
+export const runtime = "edge";
 
 export default function RootLayout({
   children,
