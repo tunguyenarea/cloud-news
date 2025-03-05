@@ -34,7 +34,7 @@ export default function BarNav() {
         </Link>
         <p>tudellg33579@protonmail.com</p>
       </div>
-      <div className="grid md:flex justify-center fixed top-8 z-20 bg-white dark:bg-black w-full h-full md:h-20 overflow-auto">
+      <div className="grid md:flex justify-center fixed top-8 z-20 bg-white dark:bg-black w-full h-full md:h-18 overflow-auto">
       {links.map((link) => {
         return (
           <Link key={link.name} onClick={toggleBarNav} href={link.href} className="bg-black text-white dark:bg-white dark:text-black text-center hover:text-white hover:bg-gradient-to-r hover:from-red-500 hover:via-orange-500 hover:to-yellow-500 rounded-lg m-3 p-3 w-28 h-12">
